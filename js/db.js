@@ -174,7 +174,7 @@ function transStudentPassOrFail(studentNumber) {
         studentPassOrFail.style.backgroundColor = 'var(--yellow-color)'
         tmpStudentList[tmpStudentArrayIndex][1] = "검토중"
         applicationList.appendChild(studentElement)
-        applicationCnt -= 1
+        applicationCnt += 1
         passCnt -= 1
     } else {
         studentPassOrFail.style.backgroundColor = 'var(--green-color)'
